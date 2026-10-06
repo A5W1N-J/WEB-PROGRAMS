@@ -1,0 +1,22 @@
+
+h1 {
+    color: red;
+    background-color: lightyellow;
+}
+
+.class {
+    color: blue;
+    background-color: lightgreen;
+}
+
+#unique {
+    color: green;
+    background-color: lightblue;
+}
+
+.element {
+    color: purple;
+    background-color: pink;
+}
+
+

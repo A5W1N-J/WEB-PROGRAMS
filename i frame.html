@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Iframes</title>
+</head>
+
+<body>
+
+<center>
+
+<iframe srcdoc="
+
+<h2>Menu</h2>
+<a href='a.html' target='display'>fruits</a><br><br>
+<a href='b.html' target='display'>vegetables</a><br><br>
+<a href='c.html' target='display'>flowers</a><br><br>
+<a href='d.html' target='display'>trees</a>
+" width="200" height="700" style="background-color: lightgreen;"></iframe>
+
+<iframe name="display" srcdoc="
+    <h2>Welcome</h2>
+    <p>Click a menu item.</p>
+" width="900" height="700" style="background-color: lightblue;""></iframe>
+</center>
+</body>
+</html>
+
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Click Events</title>
+</head>
+<body>
+
+    <h2>Mouse Click Events</h2>
+
+    <button onclick="changeColor()" ondblclick="changeColor2()">
+        Change Background Color
+    </button>
+
+    <script>
+        function changeColor() {
+            document.body.style.backgroundColor = "red";
+        }
+
+        function changeColor2() {
+            document.body.style.backgroundColor = "green";
+        }
+    </script>
+
+</body>
+</html>
